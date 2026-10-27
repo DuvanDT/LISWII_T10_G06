@@ -1,0 +1,37 @@
+package com.example.questionbank.api.dto;
+
+import com.example.questionbank.domain.model.DifficultyLevel;
+import java.util.List;
+
+public class CreateMultipleChoiceQuestionRequest {
+    private String statement;
+    private DifficultyLevel difficulty;
+    private Long authorId;
+    private Long topicId;
+    private List<AnswerOptionDto> options;
+    private QuestionMetadataDto metadata;
+    private List<Long> competencyIds;
+
+    public CreateMultipleChoiceQuestionRequest() {}
+
+    public String getStatement() { return statement; }
+    public void setStatement(String statement) { this.statement = statement; }
+
+    public DifficultyLevel getDifficulty() { return difficulty; }
+    public void setDifficulty(DifficultyLevel difficulty) { this.difficulty = difficulty; }
+
+    public Long getAuthorId() { return authorId; }
+    public void setAuthorId(Long authorId) { this.authorId = authorId; }
+
+    public Long getTopicId() { return topicId; }
+    public void setTopicId(Long topicId) { this.topicId = topicId; }
+
+    public List<AnswerOptionDto> getOptions() { return options; }
+    public void setOptions(List<AnswerOptionDto> options) { this.options = options; }
+
+    public QuestionMetadataDto getMetadata() { return metadata; }
+    public void setMetadata(QuestionMetadataDto metadata) { this.metadata = metadata; }
+
+    public List<Long> getCompetencyIds() { return competencyIds; }
+    public void setCompetencyIds(List<Long> competencyIds) { this.competencyIds = competencyIds; }
+}
