@@ -2,6 +2,7 @@
 **Software Engineering Laboratory II — Term 2-2026**  
 **Workshop 10: Java Persistence API (JPA)**  
 **University of Cauca**
+**Duvan Alexis Hoyos y Juan José Hurtado**
 
 ---
 

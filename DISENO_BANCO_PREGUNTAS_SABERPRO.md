@@ -2,7 +2,7 @@
 **Laboratorio de Ingeniería de Software II — Periodo 2-2026**  
 **Taller 10: Java Persistence API - JPA**  
 **Universidad del Cauca**
-**Integrantes: Duvan Alexis Hoyos y Juan José Hurtado**
+**Duvan Alexis Hoyos y Juan José Hurtado**
 
 ---
 
